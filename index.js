@@ -2,6 +2,7 @@ const numbers = document.querySelectorAll('.h1_index')
 const button_gerar = document.querySelector("button")
 let array_confer = []
 
+console.dir(window)
 
 
 //GEROU OS NÚMEROS E COLOCOU NO array_confer PARA CONFERIR 
@@ -22,7 +23,6 @@ const generate_numbers = () => {
  const print_numbers_page =()=>{
    for (let i = 0; i < array_confer.length; i++) {
     numbers[i].textContent=array_confer[i]
-    console.log(numbers[i]);
     
    }
  }
