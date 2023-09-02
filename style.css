@@ -1,47 +1,55 @@
-body{
+body {
     width: 100vw;
     height: 100vh;
 }
-#main_container{
+
+#main_container {
     height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 }
-.title_home{
+
+.title_home {
     width: 100vw;
-    height:10vh;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: center;
-}   
-img{
-    width: 10vw;
-    height:10vh;
 }
-.img{
+
+img {
     width: 10vw;
-    height:10vh;
+    height: 10vh;
 }
-.h1_index{
+
+.img {
+    width: 10vw;
+    height: 10vh;
+}
+
+.h1_index {
     position: absolute;
     margin: 0;
     padding: 0;
     font-size: 3rem;
 }
-.btn1{
+
+.btn1 {
     display: flex;
     justify-content: center;
     margin-top: 2vh;
 }
-#btn1{
- width: 10vw;
- height: 8vh;
- border-radius: 4vh;
+
+#btn1 {
+    width: 10vw;
+    height: 8vh;
+    border-radius: 4vh;
 }
-.h1_1{
+
+.h1_1 {
     width: calc(100vw - 10vw);
     height: 10vh;
     display: flex;
@@ -49,31 +57,60 @@ img{
     align-items: center;
 
 }
-h1{
+
+h1 {
     font-family: 'Cinzel', serif;
     color: rgb(37, 29, 58);
 }
-.container-number{
+
+.container-number {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
-.Number{
+
+.Number {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 10rem;
-    height: 10rem;  
+    height: 10rem;
     border-radius: 50%;
     font-weight: 500;
 }
-.bool{
+
+.bool {
     width: 10rem;
     height: 10rem;
 }
-.icontel{
+
+.icontel {
     display: flex;
     flex-direction: row;
 }
-a{
+
+a {
     font-size: 10pt;
+}
+
+@media screen and (max-width:1100px) {
+    .bool {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .bool {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .Number {
+        width: 6rem;
+        height: 6%;
+        border-radius: 50%;
+        font-weight: 250;
+    }
+    .h1_index {
+        font-size: 1.5rem;
+    }
 }
