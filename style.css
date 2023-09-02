@@ -1,0 +1,79 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#main_container{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+.title_home{
+    width: 100vw;
+    height:10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}   
+img{
+    width: 10vw;
+    height:10vh;
+}
+.img{
+    width: 10vw;
+    height:10vh;
+}
+.h1_index{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+#btn1{
+ width: 10vw;
+ height: 8vh;
+ border-radius: 4vh;
+}
+.h1_1{
+    width: calc(100vw - 10vw);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    font-family: 'Cinzel', serif;
+    color: rgb(37, 29, 58);
+}
+.container-number{
+    display: flex;
+    flex-direction: row;
+}
+.Number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;  
+    border-radius: 50%;
+    font-weight: 500;
+}
+.bool{
+    width: 10rem;
+    height: 10rem;
+}
+.icontel{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    font-size: 10pt;
+}
