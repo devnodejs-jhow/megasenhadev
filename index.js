@@ -12,17 +12,17 @@ console.dir(gif_load)
 //GEROU OS NÚMEROS E COLOCOU NO array_confer PARA CONFERIR 
 const generate_numbers = () => {
     for (let i = 0; i < numbers.length; i++) {
-       
+
         let element = Math.floor(Math.random() * 90.5);
-        
+
         if (!array_confer.includes(element) && element != 0) {
 
             array_confer.push(element)
-        
+
         } else {
-            
+
             i--
-        
+
         }
     }
 
@@ -31,7 +31,7 @@ const generate_numbers = () => {
 
 const print_numbers_page = () => {
     for (let i = 0; i < array_confer.length; i++) {
-        
+
         numbers[i].textContent = array_confer[i]
 
     }
@@ -45,20 +45,6 @@ button_gerar.onclick = () => {
     //Printa os numeros 
     print_numbers_page()
 
-    setTimeout(() => {
-        
-        button_gerar.style.display = "none";
-    
-    }, 50)
-    
-    gif_load.style.display = "flex";
-    
-    setTimeout(() => {
-        
-        gif_load.style.display = "none";
-        
-        button_gerar.style.display = "flex";
-    }, 3000)
 
     array_confer = []
 }
