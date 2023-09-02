@@ -1,8 +1,9 @@
 const numbers = document.querySelectorAll('.h1_index')
 const button_gerar = document.querySelector("button")
+const gif_load = document.querySelector("#gif-load")
 let array_confer = []
 
-console.dir(window)
+console.dir(gif_load)
 
 
 //GEROU OS NÚMEROS E COLOCOU NO array_confer PARA CONFERIR 
@@ -34,6 +35,16 @@ button_gerar.onclick = () => {
 
     //Printa os numeros 
     print_numbers_page()
+
+    setTimeout(()=>{
+        button_gerar.style.display = "none";
+    },50)
+     gif_load.style.display = "flex";
+     setTimeout(()=>{
+        gif_load.style.display = "none";
+        button_gerar.style.display = "flex";
+        console.log("setinterval");
+     },3000)
 
     array_confer = []
 }
