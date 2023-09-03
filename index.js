@@ -4,6 +4,7 @@ const button_gerar = document.querySelector("#btn1")
 
 const gif_load = document.querySelector("#gif-load")
 
+
 let array_confer = []
 
 
