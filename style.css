@@ -73,6 +73,7 @@ body {
 }
 
 .h1_index {
+    font-size: 1.8rem;
     color: green;
     position: absolute;
     margin-top: auto;
