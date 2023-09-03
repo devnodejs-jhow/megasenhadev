@@ -65,7 +65,7 @@ body {
 }
 
 .h1_index {
-    color: red;
+    color: green;
     position: absolute;
 }
 
@@ -106,7 +106,10 @@ body {
 }
 
 @media screen and (max-height: 350px) {
-
+    .bool {
+        width: 15vw;
+        height: 14vh;
+    }
     .h1_index {
         transform: scale(.4);
     }
