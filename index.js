@@ -6,7 +6,6 @@ const gif_load = document.querySelector("#gif-load")
 
 let array_confer = []
 
-console.dir(gif_load)
 
 
 //GEROU OS NÚMEROS E COLOCOU NO array_confer PARA CONFERIR 
