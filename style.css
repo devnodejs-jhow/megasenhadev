@@ -86,15 +86,19 @@ body {
         transform: scale(.6);
         position: absolute;
     }
+    #title {
+        font-size: 25pt;
+    }
 }
 
 @media screen and (max-height: 700px) {
-
-
     .h1_index {
         color: rgb(34, 204, 91);
         transform: scale(.6);
         position: absolute;
+    }
+    #title {
+        font-size: 30pt;
     }
 }
 
