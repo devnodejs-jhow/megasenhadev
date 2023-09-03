@@ -32,6 +32,14 @@ body {
     justify-content: center;
 }
 
+.container {
+    padding: 0;
+}
+#logo {
+    width:"1vw" ;
+    height:"3vh"
+}
+
 #title {
     font-family: 'Mr Dafoe', cursive;
     font-size: 50pt;
@@ -55,15 +63,12 @@ body {
 .btn-container-main {
     display: flex;
     justify-content: center;
-}
-
-#containe1 {
-    margin-top: 6vh;
+    align-items: center;
 }
 
 .bool {
-    width: 12vw;
-    height: 16vh;
+    width: 8vw;
+    height: 10vh;
     margin: 1vw;
 }
 
@@ -89,58 +94,76 @@ body {
 
 /*AQUI COMEÇA CONFIGURAÇÃO DE AJUSTE DE ALTURA*/
 
-@media screen and (max-width:920px) {
+@media screen and (max-width:920px) and (max-height: 700px) {
     body {
-        transform: scale(1, .8);
+        background-color: red;
     }
 
     .h1_index {
-        font-size: 1.4rem;
+        font-size: 0.6rem;
     }
 }
-@media screen and (max-width:720px) {
+@media screen and (max-width:700px) and (max-height: 920px) {
     body {
-        transform: scale(1, .7);
+        background-color: red;
     }
 
     .h1_index {
-        font-size: 1.4rem;
+        font-size: 0.6rem;
     }
 }
-@media screen and (max-width:520px) {
+
+@media screen and (max-width:520px) and (max-height: 400px) {
+    
     body {
-        transform: scale(1, .6);
+        background-color: blue;
     }
-
     .h1_index {
-        font-size:1.2rem;
+        font-size: .8rem;
+        margin-top: auto;
+        margin-bottom: auto;
     }
+    #title {
+        font-size: 30pt;
+    }
+    
 }
-
-@media screen and (max-width:500px) {
-    #container-navibar {
-        flex-direction: column;
-    }
-
-    #subdiv-navbar1 {
-        position: relative;
-        text-align: center;
-    }
-}
-
-/*AQUI COMEÇA CONFIGURAÇÃO DE AJUSTE DE ALTURA*/
-@media screen and (max-height: 700px) {
+@media screen and (max-width:400px) and (max-height: 520px) {
+    
     body {
-        transform: scale(.7, .7)
+        background-color: blue;
+    }
+    .h1_index {
+        font-size:  0.5rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    #logo{
+        width: 40;
+        height: 50;
     }
 
-    .h1_index {
-        font-size: 1.4rem;
-    }
 }
 
-@media screen and (max-height: 350px) {
+@media screen and (max-width:220px) and (max-height: 300px) {
+    /* body {
+        background-color: green;
+    } */
     .h1_index {
-        transform: scale(1, .6);
+        font-size: 0.3rem;
+        margin-top: auto;
+        margin-bottom: auto;
     }
+
+}
+@media screen and (max-width:300px) and (max-height: 220px) {
+    /* body {
+        background-color: green;
+    } */
+    .h1_index {
+        font-size: 0.3rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
 }
