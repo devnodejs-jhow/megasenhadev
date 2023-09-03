@@ -96,18 +96,12 @@ body {
 /*AQUI COMEÇA CONFIGURAÇÃO DE AJUSTE DE ALTURA*/
 
 @media screen and (max-width:920px) and (max-height: 700px) {
-    /* body {
-        background-color: red;
-    } */
 
     .h1_index {
         font-size: 0.6rem;
     }
 }
 @media screen and (max-width:700px) and (max-height: 920px) {
-    /* body {
-        background-color: red;
-    } */
 
     .h1_index {
         font-size: 0.6rem;
@@ -115,10 +109,7 @@ body {
 }
 
 @media screen and (max-width:520px) and (max-height: 400px) {
-    
-    /* body {
-        background-color: blue;
-    } */
+
     .h1_index {
         font-size: .8rem;
         margin-top: auto;
@@ -130,10 +121,7 @@ body {
     
 }
 @media screen and (max-width:400px) and (max-height: 520px) {
-    
-    /* body {
-        background-color: blue;
-    } */
+
     .h1_index {
         font-size:  0.5rem;
         margin-top: auto;
@@ -151,9 +139,6 @@ body {
 }
 
 @media screen and (max-width:220px) and (max-height: 300px) {
-    /* body {
-        background-color: green;
-    } */
     .h1_index {
         font-size: 0.3rem;
         margin-top: auto;
@@ -162,9 +147,6 @@ body {
 
 }
 @media screen and (max-width:300px) and (max-height: 220px) {
-    /* body {
-        background-color: green;
-    } */
     .h1_index {
         font-size: 0.3rem;
         margin-top: auto;
