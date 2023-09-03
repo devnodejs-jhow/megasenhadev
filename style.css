@@ -3,12 +3,14 @@ html {
     height: 100vh;
     margin: 0;
     padding: 0;
+    background-color: rgba(248,249,250,255);
 }
 
 body {
     width: 100vw;
     height: 100vh;
     display: block;
+    background-color: rgba(248,249,250,255);
 
 }
 
@@ -20,7 +22,7 @@ body {
 }
 
 #subdiv-navbar1 {
-    width: 10vw;
+    width: 100vw;
     position: absolute;
 }
 
@@ -60,13 +62,15 @@ body {
 }
 
 .bool {
-    width: 14vw;
-    height: 12vh;
+    width: 12vw;
+    height: 16vh;
 }
 
 .h1_index {
     color: green;
     position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .img-icons {
@@ -78,36 +82,31 @@ body {
     margin-top: 2%;
 }
 
-
+#Copyright{
+    background-color: rgba(248,249,250,255);
+}
 @media screen and (max-width:920px) {
+html{
+    /* transform:scale(1,.7) */
+}
 
-    .h1_index {
-        color: rgb(34, 204, 91);
-        transform: scale(.6);
-        position: absolute;
-    }
-    #title {
-        font-size: 25pt;
-    }
+.h1_index {
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (max-height: 700px) {
-    .h1_index {
-        color: rgb(34, 204, 91);
-        transform: scale(.6);
-        position: absolute;
+    html{
+        /* transform:scale(.7,.7) */
+
     }
-    #title {
-        font-size: 30pt;
+    .h1_index {
+      font-size: 1.4rem;
     }
 }
 
 @media screen and (max-height: 350px) {
     .h1_index {
-        transform: scale(.4);
+        transform: scale(1,.6);
     }
 }
-
-@media screen and (max-height: 500px) {}
-
-@media screen and (max-height: 300px) {}
