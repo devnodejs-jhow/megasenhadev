@@ -40,7 +40,7 @@ body {
 
 .container-main-bool {
     display: flex;
-    flex-direction: crow;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -64,6 +64,7 @@ body {
 .bool {
     width: 12vw;
     height: 16vh;
+    margin: 1vw;
 }
 
 .h1_index {
@@ -86,13 +87,33 @@ body {
     background-color: rgba(248, 249, 250, 255);
 }
 
+/*AQUI COMEÇA CONFIGURAÇÃO DE AJUSTE DE ALTURA*/
+
 @media screen and (max-width:920px) {
-    html {
-        transform: scale(1, .7)
+    body {
+        transform: scale(1, .8);
     }
 
     .h1_index {
         font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:720px) {
+    body {
+        transform: scale(1, .7);
+    }
+
+    .h1_index {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:520px) {
+    body {
+        transform: scale(1, .6);
+    }
+
+    .h1_index {
+        font-size:1.2rem;
     }
 }
 
@@ -107,8 +128,9 @@ body {
     }
 }
 
+/*AQUI COMEÇA CONFIGURAÇÃO DE AJUSTE DE ALTURA*/
 @media screen and (max-height: 700px) {
-    html {
+    body {
         transform: scale(.7, .7)
     }
 
