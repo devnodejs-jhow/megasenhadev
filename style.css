@@ -162,7 +162,9 @@ body {
     .btn1 {
         transform: scale(0.5);
        }
-    
+    footer{
+        transform: scale(.6);
+    }
 
 }
 
