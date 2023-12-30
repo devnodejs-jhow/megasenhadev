@@ -13,7 +13,7 @@ let array_confer = []
 const generate_numbers = () => {
     for (let i = 0; i < numbers.length; i++) {
 
-        let element = Math.floor(Math.random() * 90.5);
+        let element = Math.floor(Math.random() * 60.5);
 
         if (!array_confer.includes(element) && element != 0) {
 
